@@ -1,5 +1,5 @@
 const express = require("express");
-const router = express.Router();
+const router = express.router();
 
 // Test route (check working)
 router.get("/test", (req, res) => {
