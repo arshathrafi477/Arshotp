@@ -1,0 +1,23 @@
+{
+  "name": "express-email-otp-server",
+  "version": "1.0.0",
+  "description": "Email OTP verification server using Express, Nodemailer, and Mailtrap",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "express",
+    "otp",
+    "email-verification",
+    "nodemailer",
+    "mailtrap"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.1"
+  }
+}
